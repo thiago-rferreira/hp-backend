@@ -6,4 +6,5 @@ router.get("/wizards", wizardController.getAllWizards);
 router.get("/wizards/:id", wizardController.getWizard);
 router.post("/wizards", wizardController.createWizard);
 
+
 module.exports = router;

@@ -31,4 +31,5 @@ const createWizard = async (req, res) => {
     }
 };
 
+
 module.exports = { getAllWizards, getWizard, createWizard };

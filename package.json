@@ -3,6 +3,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
+    "fast-csv": "^5.0.2",
+    "pdfkit": "^0.16.0",
     "pg": "^8.14.1"
   },
   "name": "harrypotter",
@@ -10,7 +12,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "dev": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
